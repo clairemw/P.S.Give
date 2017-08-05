@@ -1,0 +1,27 @@
+$calm: #A3E7FB;
+$positive: #93BAFF;
+$royal: #C6B9F1;
+$light: #ffffff;
+$link-color: $light;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+body.platform-ios {
+	font-family: 'Poppins', sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: 'Poppins', sans-serif;
+}
+
+body.platform-android {
+	font-family: 'Poppins', sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+
